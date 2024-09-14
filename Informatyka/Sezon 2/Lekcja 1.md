@@ -37,9 +37,9 @@ rm -rf Test/
 
 ```shell
 # Utworzenie katalogu
-mkdir Snake/
+mkdir Directory/
 # Zmiana katalogu
-cd Snake/
+cd Directory/
 # Zainicjowanie repozytorium
 git init
 # Sprawdzenie statusu repozytorium
@@ -48,6 +48,12 @@ git status
 git remote add origin git@github.com:wieczorek1990/gitl.git
 # Ustawienie źródła istniejącego
 git remote set-url origin git@github.com:wieczorek1990/gitl.git
+# Utworzenie pliku
+touch README.md
+# Dodanie pliku do zmian śledzonych
+git add README.md
+# Zatwierdzenie zmian z wiadomością
+git commit -m "Initial commit."
 # Pociagnięcie źródła
 git pull
 # Wypchnięcie źródła
@@ -69,6 +75,8 @@ import sys
 print(sys.argv)
 # Wywołanie metody len
 print(len(sys.argv))
+# Definicja funkcji sumującej
+def sum(a, b): return a + b
 ```
 
 ## Docker
@@ -102,6 +110,21 @@ apk info
 apk info | wc -l
 ```
 
+Plik Dockerfile służy do definiowania obrazu.
+
+```Dockerfile
+FROM python:3.13-rc-alpine
+
+CMD ["echo", "Hello, world!"]
+```
+
+```shell
+# Budowanie lokalnego obrazu
+docker build . -t echo
+# Uruchomienie lokalnego obrazu
+docker run echo
+```
+
 ## Zadania
 
 ### Zadanie 1.
@@ -116,3 +139,12 @@ Sklonować [gitl](https://github.com/wieczorek1990/gitl/) i uruchomić.
 
 Napisać kalkulator kwoty brutto i netto faktury przy podaniu stawki godzinowej i liczby godzin.
 Kalkulator powienien formatować kwoty do dwóch miejsc po przecinku.
+
+### Zadanie 4.
+
+Napisać zgadywacz liczb w Python, który losuje liczbę z zakresu 1..9 i pobiera liczbę użytkownika aż liczba zostanie zgadnięta.
+
+### Zadanie 5.
+
+Uruchomić minimalną aplikację Flask w Docker.
+Ustaw host `0.0.0.0` i port `5000`.
