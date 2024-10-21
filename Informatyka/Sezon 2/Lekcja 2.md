@@ -10,6 +10,7 @@ Zadanie 3.
 
 Mishi chce kupić dodatkową działkę, działka ma staw o wielkości 24 na 32 metry,
 rozmiar działki prostokątnej to 1024 metry na 248 metrów.
+Mishi sadzi drzewa w odległości 2m od siebie w pionie i poziomie.
 Ile jest przestrzeni sadu na tej działce? Ile drzew można zasadzić?
 
 Zadanie 4.
