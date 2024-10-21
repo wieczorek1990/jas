@@ -4,7 +4,7 @@ Mishi ma prostokąt 1024 na 24 matrycy jabłek sadu, ile to drzew?
 
 Zadanie 2.
 
-Zimi obliczył, że średnio zbiera 12 jabłek na sekundę, ile to jabłek w 1560 sekund.
+Zimi obliczył, że średnio zbiera 12 jabłek na minutę, ile to jabłek w 1560 sekund.
 
 Zadanie 3.
 
