@@ -35,7 +35,6 @@ Zimi zbiera 12 jabłek na sekundę
 Mijashmi zbiera 4 jabłka na sekundę.
 Ile jabłek zbiorą oni wszyscy w 6 godzin?
 
-
 Zadanie 7.
 
 Mishi chciałby obliczać prostokątne rozmiary sadu.
