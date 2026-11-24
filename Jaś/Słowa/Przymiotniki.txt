@@ -71,7 +71,10 @@ umyty
 nieumyty
 pełny
 pusty
+w połowie zapełninony
 publiczny
 prywatny
 kiepski
 średni
+ogromny
+elficki
