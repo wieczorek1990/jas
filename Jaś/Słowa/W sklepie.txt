@@ -23,6 +23,7 @@ cukier
 cukierek
 czekolada
 baton
+batnonik
 figa suszona
 drób
 wieprzowina
@@ -36,3 +37,11 @@ makrela
 mleko
 jogurt
 ser
+chałwa
+skarpety zimowe
+rogal
+croissant
+keczup
+musztarda
+makaron
+drożdżówka
